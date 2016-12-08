@@ -4,7 +4,6 @@ resultat = (" le roi des animaux");
 
 if(prenom == "robert"){
 	alert(prenom + resultat);
-
 }
 
 else if(prenom == "julien") {
@@ -13,7 +12,7 @@ else if(prenom == "julien") {
 		alert("c'est le meilleur !");
 			}
 		else if(form == "non") {
-	alert("je le savais");
+	alert("Je le savais !");
 			}
 }
 else if(prenom =="hasna"){
@@ -25,7 +24,15 @@ else if(prenom =="hasna"){
 	alert("Dommage :(");
 		}
 }
-
+else if(prenom =="andrea"){
+	chaussette = prompt("As-tu mis tes belles chaussettes Mario ?");
+		if(chaussette== "oui") {
+	alert("Sexyyyy");
+		}
+		else if(chaussette == "non") {
+	alert("Peut être une prochaine fois !");
+		}
+	}
 else if(prenom == "robert"){
 	alert(prenom + resultat);
 }
