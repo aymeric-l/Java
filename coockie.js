@@ -41,7 +41,9 @@ case 'aude' :
 		else if(danger == "non") {
 	alert("Merci! Mais je vais me méfier quand même");
 		}
+	break;
 	}
+
 
 
 
